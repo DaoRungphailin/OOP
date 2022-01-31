@@ -1,0 +1,21 @@
+remainder = 131%10 = 1
+reversed = 0*10 +1 =1
+n = 13
+
+remainder = 13%10 = 3
+reversed = 1*10 + 3 = 13
+n = 1
+
+
+remainder = 1%10 = 1
+reversed = 13*10 + 1 = 131
+n = 0 //end loop
+
+--------------------------------
+remainder = 11%10 = 1
+reversed = 0*1 + 1 = 1
+n = 1 
+
+remainder = 1%10 = 1
+reversed = 1*10 + 1 = 11
+n = 0 //end loop
