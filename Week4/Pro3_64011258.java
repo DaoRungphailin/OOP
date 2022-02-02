@@ -13,11 +13,11 @@ public class Pro3_64011258 {
         for(int i=0;i<num.length;i++){
             if((i+1)%5==0&&i!=0)
             {
-            System.out.println(String.format("%.2f",num[i])+"     ");
+                System.out.println(String.format("%.2f",num[i])+"     ");
             }
             else
             {
-            System.out.print(String.format("%.2f",num[i])+"     ");
+                System.out.print(String.format("%.2f",num[i])+"     ");
             }
         }
 
