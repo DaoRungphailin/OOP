@@ -1,0 +1,68 @@
+import java.util.*;
+public class Account{
+
+    // Attributes
+    private int id;
+    private double balance;
+    private double annualInterestRate;
+    private Date dateCreated;
+
+    // Constructor
+    Account() {
+        this.id = 0;
+        this.balance = 0;
+        this.annualInterestRate = 4.5;
+        this.dateCreated = new Date();
+    }
+
+    //Method
+    public int getId(){
+        return this.id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public double getBalance(){
+        return this.balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public double getAnnualInterestRate(){
+        return annualInterestRate;
+    }
+
+    public void setAnnualInterestRate(double balance) {
+        this.annualInterestRate = annualInterestRate;
+    }
+    //****
+     public Date getDateCreated() {
+        return this.dateCreated;
+    }
+
+    public double getMonthlyInterestRate() {
+        return this.annualInterestRate / 1200;
+    }
+
+    public double getMonthlyInterest() {
+        return this.balance * this.getMonthlyInterestRate();
+    }
+
+    public void deposit(double money){
+        this.balance += money;
+    }
+
+    public void withdraw(double money){
+        this.balance -= money;
+    }
+}
+    /*
+    public Account(int id, double balance){
+        this.id = id;
+        this.balance = balance;
+    }*/
+
