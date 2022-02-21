@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Pro1_64011258 {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Checking Account");
+        System.out.print("Overdraft limit: ");
+        double overdraftLimit = in.nextDouble();
+
+        CheckingsAccount checkingAccount = new CheckingsAccount();
+        checkingAccount.setOverdraftLimit(overdraftLimit);
+
+        checkingAccount.setBalance(5000);
+        System.out.println("Balance is " + checkingAccount.getBalance());
+        System.out.print("Withdraw: ");
+        
+        double amount = in.nextDouble();
+        checkingAccount.withdraw(amount);
+        System.out.println("Balance is " + checkingAccount.getBalance());
+        System.out.println("This account was created at " + checkingAccount.getDateCreated());
+        in.close();
+    }
+}
