@@ -1,3 +1,13 @@
+/*Program# 2(Exercise 1.13 p.31Algebra: solve 2 * 2 linear equations)
+You can use Cramer’s rule to solve the following2 * 2 system of linear equation:
+𝑎𝑥+𝑏𝑦=e
+c𝑥+𝑑𝑦=𝑓
+
+𝑥=𝑒𝑑−𝑏𝑓 / 𝑎𝑑−𝑏𝑐
+𝑦=𝑎𝑓−𝑒𝑐 / 𝑎𝑑−𝑏𝑐
+
+Write a program that solves the following equation and displays the value for x and y
+3.4𝑥+50.2𝑦=44.52.1𝑥+0.55𝑦=5.9*/
 import java.util.Scanner;
 class B_Equation{
     public static void main(String[] args)
