@@ -1,3 +1,22 @@
+/*Program# 3(Exercise 8.14 p.310 Explore matrix) 
+Write a program that prompts the user to enter the length of asquare matrix, 
+randomly fills in 0s and 1s into the matrix, prints the matrix, and
+finds the rows, columns, and diagonals with all 0s or 1s. 
+
+Here is a sample run ofthe program:
+
+Enter the size for the matrix: 4<Enter>
+0111
+0000
+0100
+1111
+
+All 0s on row 1
+All 1s on row 3
+No same numbers on a column
+No same numbers on the superdiagonal
+No same numbers on the diagonal
+No same numbers on the subdiagonal*/
 import java.util.Scanner;
 import java.util.Arrays;
 class C_Matrix {//Matrix 

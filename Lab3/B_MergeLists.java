@@ -1,3 +1,16 @@
+/*Program# 2(Exercise 7.31 p.283Merge two sorted lists) 
+Write the following method that merges two sorted lists
+into a new sorted list.public static int[] merge(int[] list1, int[] list2)
+Implement the method in a way that takes at most list1.length + list2.length comparisons. 
+Write a test program that prompts the user to enter twosorted lists and displays the merged list. 
+
+Here is a sample run. 
+Note that the firstnumber in the input indicates the number of the elements inthe list. 
+This numberis not part of the list.
+
+Enter list1: 15 16 61 111 <Enter>
+Enter list2: 24 5 6 <Enter>
+The merged list is 1 2 4 5 5 6 16 61 111 */
 import java.util.Scanner;
 import java.util.Arrays;
 class B_MergeLists{//Merge lists

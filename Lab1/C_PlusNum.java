@@ -6,8 +6,8 @@ Hint:Use the % operator to extract digits anduse the / operator to remove theext
 For instance, 932 % 10 = 2 and 932 / 10 = 93. 
 
 Here is a sample run:
-Enter a number between 0 and 1000: 999
-<Enter>The sum of the digits is 27*/
+Enter a number between 0 and 1000: 999<Enter>
+The sum of the digits is 27*/
 import java.util.Scanner;
 class C_PlusNum{
     public static void main(String[] args)

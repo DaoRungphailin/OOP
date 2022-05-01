@@ -1,3 +1,14 @@
+/*Program# 3(Exercise 9.6 Stopwatch) Design a class named StopWatch. 
+The class contains:■Private data fields startTime and endTime with getter methods.
+■A no-arg constructor that initializes startTime with the current time.
+■A method named start() that resets the startTime to the current time.
+■A method named stop() that sets the endTime to the current time.
+■A method named getElapsedTime() that returns the elapsed time for the stopwatch in milliseconds.
+
+Draw the UML diagram for the class and then implement the class. 
+Write atest program that 
+measures the execution time of sorting 1,000 numbersusing selection sort
+and measures the executing time of creating 1,000 palindrome prime numbers. */
 import java.util.Random;
 
 public class Pro3_64011258 {

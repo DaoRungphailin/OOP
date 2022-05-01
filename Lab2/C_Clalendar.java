@@ -1,3 +1,19 @@
+/*Program# 3(**Exercise 3.21p.112Science: day of the week) 
+Zeller’s congruence is an algorithm developed byChristian Zeller to calculate the day of the week. 
+The formula is
+
+ℎ = q+26(m+1)/10+𝑘/4+𝑗/4+5j)%7
+
+where
+■ h is the day of the week (0: Saturday, 1: Sunday, 2: Monday, 3: Tuesday, 4:Wednesday, 5: Thursday, 6: Friday).
+■q is the day of the month.
+■m is the month (3: March, 4: April, ..., 12: December,January and Februaryare counted as 
+months 13 and 14 of the previous year).■j is the century (i.e.,year/ 100).
+■k is the year of the century (i.e., year % 100).
+
+Note that the division inthe formula performs an integer division. 
+Write a programthat prompts the user to enter a year, month, and day of the month, and
+displays the name of the day of the week. Here are some sample runs:*/
 import java.util.Scanner;
 
 class C_Clalendar{

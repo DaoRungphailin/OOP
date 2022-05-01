@@ -1,3 +1,15 @@
+/*Program# 5(Exercise 5.17 p.193Display pyramid) 
+Write a program that prompts the user to enter an integer from1 to 15 and displays a pyramid, 
+as shown in the following sample run:
+
+Enter the number of lines: 7 <Enter>
+            1
+          2 1 2
+        3 2 1 2 3
+      4 3 2 1 2 3 4
+    5 4 3 2 1 2 3 4 5
+  6 5 4 3 2 1 2 3 4 5 6
+7 6 5 4 3 2 1 2 3 4 5 6 7*/
 import java.util.Scanner;
 
 class E_Pyramid{
