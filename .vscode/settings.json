@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
         "Lab4",
+        "Lab3",
         "Lab2",
         "Lab1",
-        "Lab3"
+        "quiz"
     ]
 }
